@@ -41,10 +41,24 @@ This project is a real-time body measurement API built with **Flask**, **MediaPi
 
 ## How to Run
 
+First, make sure you have `Python 3.12` installed on your system. Then, make the virtual environment and install the required dependencies.
+
+```bash
+python -3.12 -m venv .venv
+
+.\.venv\Scripts\activate
+
+pip install -r requirements.txt
+```
+
+Then, run the following commands:
 ```bash
 cd Live-Measurements-Api
+
 .\.venv\Scripts\activate
+
 .\.venv\Scripts\python.exe app.py
+
 .\.venv\Scripts\python.exe result.py
 ```
 
