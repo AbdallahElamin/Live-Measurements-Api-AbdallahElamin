@@ -45,20 +45,25 @@ First, make sure you have `Python 3.12` installed on your system. Then, make the
 
 ```bash
 python -3.12 -m venv .venv
-
+```
+```bash
 .\.venv\Scripts\activate
-
+```
+```bash
 pip install -r requirements.txt
 ```
 
 Then, run the following commands:
 ```bash
 cd Live-Measurements-Api
-
+```
+```bash
 .\.venv\Scripts\activate
-
+```
+```bash
 .\.venv\Scripts\python.exe app.py
-
+```
+```bash
 .\.venv\Scripts\python.exe result.py
 ```
 
