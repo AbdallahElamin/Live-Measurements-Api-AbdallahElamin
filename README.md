@@ -50,7 +50,7 @@ cd ..\Live-Measurements-Api-AbdallahElamin
 
 Then, create a virtual environment and activate it.
 ```bash
-python -3.12 -m venv .venv
+py -3.12 -m venv .venv
 ```
 ```bash
 .\.venv\Scripts\activate
