@@ -47,11 +47,11 @@ Live-Measurements-Api-AbdallahElamin/
     └── routes.py       ← Flask Blueprint + /upload_images route
 ```
 
-## What Was Improved (Beyond Just Splitting)
+### What Was Improved (Beyond Just Splitting)
 
-> **Eliminated copy-pasted depth sampling**: The `_depth_ratio_at()` helper in `calculator.py` replaces 4 identical blocks that were copy-pasted across the chest, waist, hip, and thigh measurement sections.
-> **Clear singleton pattern**: Both the MiDaS model (`depth.py`) and the MediaPipe Holistic instance (`routes.py`) are loaded once at module import — clearly documented, not hidden in a module body.
-> **Flask Blueprint**: The route is now registered via app.register_blueprint(bp) — a proper Flask pattern that allows routes to be tested independently of the app.
+- **Eliminated copy-pasted depth sampling**: The `_depth_ratio_at()` helper in `calculator.py` replaces 4 identical blocks that were copy-pasted across the chest, waist, hip, and thigh measurement sections.
+- **Clear singleton pattern**: Both the MiDaS model (`depth.py`) and the MediaPipe Holistic instance (`routes.py`) are loaded once at module import — clearly documented, not hidden in a module body.
+- **Flask Blueprint**: The route is now registered via app.register_blueprint(bp) — a proper Flask pattern that allows routes to be tested independently of the app.
 
 ---
 
@@ -87,11 +87,11 @@ pip install -r requirements.txt
 ```
 
 Finally, run the following commands:
-> Start the server:
+- Start the server:
 ```bash
 .\.venv\Scripts\python.exe app.py
 ```
-> Run the result script:
+- Run the result script:
 ```bash
 .\.venv\Scripts\python.exe result.py
 ```
