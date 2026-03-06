@@ -130,7 +130,7 @@ Simply integrate this API into your frontend — mobile or web — to collect tw
 
 ## 🤝 Contributions
 
-PRs and suggestions are welcome! Fork this repo, raise an issue, or open a pull request.
+PRs and suggestions are welcome! Raise an issue, or open a pull request.
 
 ## 📜 License
 
