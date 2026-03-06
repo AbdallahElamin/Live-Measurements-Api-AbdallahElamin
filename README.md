@@ -112,6 +112,8 @@ curl -X POST http://localhost:5000/measurements \
 > 📌 **Note:**  
 > The system uses **AI depth maps** and **contour-based width detection**.  
 > Final measurements may have a **±2–3 cm variance** depending on image quality and user alignment.
+> Hip reading may be distorted by clothing, stance, or camera angle. Stand straight, keep feet under hips, arms slightly out, and avoid jackets or loose fabric.
+> Waist reading may be too small. Make sure your midsection is fully visible and not heavily shadowed or blocked by arms.
 
 
 # Integration in Fashion E-Commerce
@@ -132,7 +134,5 @@ PRs and suggestions are welcome! Fork this repo, raise an issue, or open a pull 
 
 ## 📜 License
 
-MIT License. Feel free to use this for personal or commercial projects — just give credit.
-
-
-
+MIT License. This software is originally developed by 
+[JavTahir](https://github.com/JavTahir). This is merely a forked repository of the original project.
