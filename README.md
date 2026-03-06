@@ -66,7 +66,7 @@ Live-Measurements-Api-AbdallahElamin/
 
 ## How to Run
 
-It's Important to note that this project is best run using `Python 3.12` so make sure you have `Python 3.12` and `Python Launcher` installed on your system.
+After cloning the repository, it's highly important to note that this project is best run using `Python 3.12` so make sure you have `Python 3.12` and `Python Launcher` installed on your system.
 
 First, `cd` into the project directory.
 ```bash
